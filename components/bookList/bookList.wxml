@@ -1,0 +1,14 @@
+<!--components/bookList/bookList.wxml-->
+<view class="list">
+  <view class="bookImg"><image src="{{bookListData.src}}"></image></view>
+  <view class="bookInfo">
+    <text class="title">{{bookListData.title}}</text>
+    <view class="flag">
+      <text class="author">{{bookListData.author}}</text>
+      <block class='flagCon' wx:for="{{bookListData.flagItem}}">
+        <text class='flagItem'>{{item}}</text>
+      </block>
+    </view>
+    <text class="summary">{{bookListData.summary}}</text>
+  </view>
+</view>

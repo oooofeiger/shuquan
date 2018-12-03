@@ -1,0 +1,42 @@
+/* components/bookList/bookList.wxss */
+.list{
+  display: flex;
+  flex-direction: row;
+  font-size: 22rpx;
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+}
+.bookImg{
+  display: inline-block;
+}
+.bookImg image{
+  width:190rpx;
+  height:190rpx;
+}
+.bookInfo{
+  display: inline-block;
+}
+.bookInfo .title{
+  font-size: 30rpx;
+  color: cornflowerblue;
+}
+.bookInfo .author{
+  color: cadetblue;
+}
+.bookInfo .flagCon{
+  display: inline-block;
+}
+.bookInfo .flagItem{
+  padding: 0 5px;
+  background-color: rgb(248, 152, 83);
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.bookInfo .summary{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  color:#666;
+}

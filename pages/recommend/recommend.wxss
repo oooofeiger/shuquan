@@ -1,0 +1,16 @@
+/**index.wxss**/
+.ssss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper{
+  width: 100%;
+}
+.slide-image{
+  display: block;
+  margin: 0 auto;
+  width: 200rpx;
+  height: 200rpx;
+}
+
