@@ -15,6 +15,17 @@
       </block>
     </swiper>
   </view>
+  <view class="navigatorWrap">
+    <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="switchTab" hover-class="navigator-hover">
+      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+    </navigator>
+    <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="switchTab" hover-class="navigator-hover">
+      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+    </navigator>
+    <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="navigate" hover-class="navigator-hover">
+      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+    </navigator>
+  </view>
   <view class="mainBody">
     <bookList book-list-data="{{bookListData}}"></bookList>
     <bookList book-list-data="{{bookListData}}"></bookList>

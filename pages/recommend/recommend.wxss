@@ -6,11 +6,23 @@
 }
 .swiper{
   width: 100%;
+  height: 200rpx;
+}
+swiper{
+  height: 200rpx;
 }
 .slide-image{
   display: block;
   margin: 0 auto;
   width: 200rpx;
   height: 200rpx;
+}
+.navigatorWrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigator{
+  margin: 50rpx 50rpx;
 }
 

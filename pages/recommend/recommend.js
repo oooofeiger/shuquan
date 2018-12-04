@@ -9,7 +9,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     swiper:{
       imgUrls: [
-        {src:'../../images/baiyexing.jpg',id:0},
+        { src:'../../images/baiyexing.jpg',id:0 },
         { src: '../../images/baiyexing.jpg', id: 1 },
         { src: '../../images/baiyexing.jpg', id: 2 },
       ],
