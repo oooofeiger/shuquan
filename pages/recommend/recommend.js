@@ -18,6 +18,11 @@ Page({
       interval: 2000,
       duration: 500,
       circular: true
+    },
+    navigateImg: {
+      literature: '../../images/文学.png',
+      novel: '../../images/小说.png',
+      rankingList: '../../images/排行榜.png'
     }
     
   },

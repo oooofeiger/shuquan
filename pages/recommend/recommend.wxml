@@ -15,15 +15,22 @@
       </block>
     </swiper>
   </view>
+  <!-- <view class="booksType">
+    <button size="10" type='primary'>文学</button>
+    <button size="10" type='primary'>网文</button>
+  </view> -->
   <view class="navigatorWrap">
     <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="switchTab" hover-class="navigator-hover">
-      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+      <image src="{{navigateImg.literature}}" class="navigateImg"/>   
+      <text>文学</text>
     </navigator>
     <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="switchTab" hover-class="navigator-hover">
-      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+      <image src="{{navigateImg.novel}}" class="navigateImg"/>  
+      <text>网文</text> 
     </navigator>
     <navigator class="navigator" url="/page/navigate/navigate?title=navigate" open-type="navigate" hover-class="navigator-hover">
-      <image src="{{item.src}}" class="slide-image" width="255" height="100"/>   
+      <image src="{{navigateImg.rankingList}}" class="navigateImg"/>   
+      <text>排行榜</text>
     </navigator>
   </view>
   <view class="mainBody">

@@ -10,6 +10,7 @@
 }
 swiper{
   height: 200rpx;
+  background-color: bisque
 }
 .slide-image{
   display: block;
@@ -23,6 +24,28 @@ swiper{
   align-items: center;
 }
 .navigator{
-  margin: 50rpx 50rpx;
+  margin: 30rpx 70rpx;
+  font-size: 20rpx;
+  color: #666;
+  text-align: center;
 }
+.navigateImg{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+}
+/* .booksType{
+  margin: 10rpx 0;
+}
+.booksType button{
+  display: inline-block;
+  padding: 20rpx 130rpx;
+  line-height: 1;
+  background-color:rgb(100, 165, 100);
+  border:none;
+  box-shadow: none;
+}
+.booksType button:first-child{
+  margin-right: 20rpx;
+} */
 
