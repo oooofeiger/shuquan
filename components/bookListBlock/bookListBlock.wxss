@@ -1,0 +1,21 @@
+/* components/bookListBlock/bookListBlock.wxss */
+view{
+  display: inline-block;
+}
+image{
+  width: 190rpx;
+  height: 250rpx;
+  display: block;
+}
+.title{
+  font-size: 28rpx;
+  color: cornflowerblue;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.author {
+  font-size: 20rpx;
+  display: block;
+}

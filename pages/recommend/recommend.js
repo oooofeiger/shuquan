@@ -9,9 +9,9 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     swiper:{
       imgUrls: [
-        { src:'../../images/baiyexing.jpg',id:0 },
-        { src: '../../images/baiyexing.jpg', id: 1 },
-        { src: '../../images/baiyexing.jpg', id: 2 },
+        { src:'../../images/faguowangshi.jpg',id:0 },
+        { src: '../../images/faguowangshi.jpg', id: 1 },
+        { src: '../../images/faguowangshi.jpg', id: 2 },
       ],
       indicatorDots: false,
       autoplay: true,
@@ -30,9 +30,20 @@ Page({
   bindViewTap: function() {
     
   },
+  moreLiterature: function(){
+    console.log('moreLiterature')
+  },
+  moreNovel: function () {
+    console.log('moreNovel')
+  },
   onLoad: function () {
     this.setData({
-      bookListData: { src: '../../images/baiyexing.jpg', title: '白夜行', author: '东野圭吾', flagItem: ['悬疑', '侦探', '推理'], summary: '《白夜行》是日本作家东野圭吾创作的长篇小说，也是其代表作。该小说于1997年1月至1999年1月间连载于期刊，单行本1999年8月在日本发行。故事围绕着一对有着不同寻常情愫的小学生展开。故事围绕着一对有着不同寻常情愫的小学生展开。故事围绕着一对有着不同寻常情愫的小学生展开。' }
+      bookListData: { src: '../../images/faguowangshi.jpg', title: '白夜行', author: '东野圭吾', flagItem: ['悬疑', '侦探', '推理'], summary: '《白夜行》是日本作家东野圭吾创作的长篇小说，也是其代表作。该小说于1997年1月至1999年1月间连载于期刊，单行本1999年8月在日本发行。故事围绕着一对有着不同寻常情愫的小学生展开。故事围绕着一对有着不同寻常情愫的小学生展开。故事围绕着一对有着不同寻常情愫的小学生展开。' },
+      bookListBlock: {
+        src: '../../images/faguowangshi.jpg',
+        title: '白夜行',
+        author: '东野圭吾'
+      }
     })
 
     if (app.globalData.userInfo) {

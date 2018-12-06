@@ -33,10 +33,32 @@
       <text>排行榜</text>
     </navigator>
   </view>
-  <view class="mainBody">
+  <!-- <view class="mainBody">
     <bookList book-list-data="{{bookListData}}"></bookList>
-    <bookList book-list-data="{{bookListData}}"></bookList>
-    <bookList book-list-data="{{bookListData}}"></bookList>
-    <bookList book-list-data="{{bookListData}}"></bookList>
+  </view> -->
+  <view class="bookContain">
+    <text class="recommendTitle">热门文学</text>
+    <view class="bookListBody">
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+    </view>
+    <text class="more" bindtap='moreLiterature'>查看更多</text>
+  </view>
+  <view class="lineBetween"></view>
+  <view class="bookContain">
+    <text class="recommendTitle">热门网文</text>
+    <view class="bookListBody">
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+      <bookListBlock book-list-block="{{bookListBlock}}"></bookListBlock>
+    </view>
+    <text class="more" bindtap='moreNovel'>查看更多</text>
   </view>
 </view>

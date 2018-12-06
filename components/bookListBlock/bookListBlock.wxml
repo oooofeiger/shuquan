@@ -1,0 +1,6 @@
+<!--components/bookListBlock/bookListBlock.wxml-->
+<view>
+  <image src="{{bookListBlock.src}}"></image>
+  <text class="title">{{bookListBlock.title}}</text>
+  <text class="author">{{bookListBlock.author}}</text>
+</view>

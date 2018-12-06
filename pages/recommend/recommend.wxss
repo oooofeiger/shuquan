@@ -6,17 +6,17 @@
 }
 .swiper{
   width: 100%;
-  height: 200rpx;
+  height: 250rpx;
 }
 swiper{
-  height: 200rpx;
+  height: 250rpx;
   background-color: bisque
 }
 .slide-image{
   display: block;
   margin: 0 auto;
   width: 200rpx;
-  height: 200rpx;
+  height: 250rpx;
 }
 .navigatorWrap{
   display: flex;
@@ -48,4 +48,29 @@ swiper{
 .booksType button:first-child{
   margin-right: 20rpx;
 } */
-
+.lineBetween{
+  margin: 20rpx 0 30rpx;
+  border-top: 1rpx solid #eee;
+  width: 95%;
+}
+.recommendTitle{
+  display: block;
+  font-size: 40rpx;
+  margin-bottom: 25rpx;
+}
+.bookContain{
+  width: 95%;
+}
+.bookListBody{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.more{
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: #666;
+  display: block;
+  text-align: center;
+}

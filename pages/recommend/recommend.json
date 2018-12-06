@@ -1,6 +1,7 @@
 {
   "usingComponents":{
-    "bookList": "/components/bookList/bookList"
+    "bookList": "/components/bookList/bookList",
+    "bookListBlock": "/components/bookListBlock/bookListBlock"
   }
   
 }
